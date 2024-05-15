@@ -14,11 +14,11 @@ int main() {
     // Champ de poser les questions
     for (int i = 0; i < 3; ++i) {
         cout << questions[i].question << endl;
-        char réponse_utilisateur;
-        cin >> réponse_utilisateur;
+        char reponse_utilisateur;
+        cin >> reponse_utilisateur;
 
         // Tester la réponse
-        if (toupper(réponse_utilisateur) == questions[i].bonne_reponse) {
+        if (toupper(reponse_utilisateur) == questions[i].bonne_reponse) {
             cout << "Bonne réponse !" << endl;
             ++score;
         }
