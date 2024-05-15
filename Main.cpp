@@ -23,7 +23,7 @@ int main() {
             ++score;
         }
         else {
-            cout << "Mauvaise réponse." << endl;
+            cout << "Mauvaise réponse :(" << endl;
         }
     }
 
