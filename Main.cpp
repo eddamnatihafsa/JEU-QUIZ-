@@ -2,10 +2,6 @@
 #include "Quiz.cpp"
 using namespace std;
 
-
-
-
-
 int main() {
     int score = 0; // Score final ^_^
 
@@ -31,3 +27,4 @@ int main() {
     cout << "Votre score final : " << score << " sur 9." << endl;
 
     return 0;
+}
